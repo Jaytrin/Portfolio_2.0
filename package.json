@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaytrin/Portfolio_2.0.git"
+  },
+  "author": "Jaytrin Apinchapong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaytrin/Portfolio_2.0/issues"
+  },
+  "homepage": "https://github.com/Jaytrin/Portfolio_2.0#readme"
+}

@@ -1,0 +1,55 @@
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .ml15 {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: lightpink;
+        position: absolute;
+        top: 54px;
+        left: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        margin-left: 50%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.show {
+        left: 20%;
+    }
+}
